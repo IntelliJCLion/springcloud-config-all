@@ -1,0 +1,11 @@
+spring:
+  profiles: dev
+    active: spring-cloud-config-dev
+---
+spring:
+  profiles: test
+    active: spring-cloud-config-test
+---
+spring:
+  profiles: data
+    active: spring-cloud-config-data
