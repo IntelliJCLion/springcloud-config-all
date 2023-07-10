@@ -4,10 +4,10 @@ spring:
 ---
 spring:
   profiles: test
-    application:
-      name: spring-cloud-config-test
+  application:
+    name: spring-cloud-config-test
 ---
 spring:
   profiles: data
-    application:
-      name: spring-cloud-config-data
+  application:
+    name: spring-cloud-config-data
